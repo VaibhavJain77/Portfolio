@@ -345,6 +345,11 @@ section {
   background-color: #2563eb;
   transform: translateY(-2px);
 }
+@media (min-width: 1200px) {
+  .ppp {
+    margin-left: 340px;
+  }
+}
 .head2::after {
   z-index: -1;
   content: "";
