@@ -247,6 +247,11 @@ section {
 #service {
   margin-top: 130px;
 }
+@media (min-width: 1200px) {
+  #service {
+    margin-top: -400px;
+  }
+}
 .head1::after {
   z-index: -1;
   content: "";
